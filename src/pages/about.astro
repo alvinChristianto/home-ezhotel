@@ -14,21 +14,30 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
 <Layout title="About">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">About</Fragment>
-      <Fragment slot="desc">We are a small passionate team.</Fragment>
+      <Fragment slot="title">Tentang Kami</Fragment>
+      <Fragment slot="desc"></Fragment>
     </Sectionhead>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Empowering the world with Astro.
+        kemudahan operasional hotel anda
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
+        EZHOTEL mempermudah operasional hotel Anda. Kami memahami betapa
+        pentingnya proses billing yang cepat, akurat, dan efisien dalam industri
+        perhotelan.
+      </p>
+      <p class="text-lg leading-relaxed text-slate-500">
+        EZHOTEL hadir sebagai solusi untuk menyederhanakan operasional hotel,
+        khususnya dalam proses billing, yang kami pahami sangat krusial dalam
+        industri perhotelan. Sistem billing EZHOTEL dirancang untuk
+        meminimalisir kesalahan dan mempercepat pembuatan tagihan, sehingga
+        hotel dapat meningkatkan efisiensi operasional, memberikan pelayanan
+        yang lebih baik kepada tamu, dan fokus pada pengalaman tamu tanpa
+        terbebani masalah administrasi.
       </p>
     </div>
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+    <!-- <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
       {
         publishedTeamMembers.map((teamMemberEntry) => (
           <div class="group">
@@ -52,6 +61,6 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
           </div>
         ))
       }
-    </div>
+    </div> -->
   </Container>
 </Layout>
