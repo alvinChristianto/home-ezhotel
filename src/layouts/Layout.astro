@@ -30,13 +30,13 @@ const makeTitle = title
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
+    <meta name="generator" content="https://www.ezhotel.site/" />
 
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="EZHOTEL - Billing Hotel dengan Mudah"
-      canonical={canonicalURL}
+      description="EZHOTEL - Billing Hotel dengan Mudah dan Cepat"
+      canonical= "https://www.ezhotel.site/"
       twitter={{
         creator: "@alvinchristiantoo",
         site: "@alvinchristiantoo",
@@ -44,10 +44,12 @@ const makeTitle = title
       }}
       openGraph={{
         basic: {
-          url: canonicalURL,
+          url: 'https://www.ezhotel.site/',
+          // url: canonicalURL,
           type: "website",
           title: `EZHOTEL - Billing Hotel dengan Mudah`,
-          image: resolvedImageWithDomain,
+          image: 'https://www.ezhotel.site/_astro/hero.CvA9Zyzq_zKEam.webp'
+          // image: resolvedImageWithDomain,
         },
         image: {
           alt: "EZHOTEL Homepage Screenshot",
